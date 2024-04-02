@@ -1,6 +1,8 @@
 <div></div>
 
-# esbuild-plugin-babel
+# esbuild-plugin-babel-next
+
+This is the fork of original [esbuild-plugin-babel](https://github.com/nativew/esbuild-plugin-babel). The main difference is that this fork supports ES modules config.
 
 [Babel](https://github.com/babel/babel) plugin for [esbuild](https://github.com/evanw/esbuild).
 
@@ -14,7 +16,7 @@ If not, you can add the Babel plugin you need with this plugin.
 ### Install
 
 ```zsh
-npm install esbuild-plugin-babel -D
+npm install esbuild-plugin-babel-next -D
 ```
 
 <br>
@@ -25,7 +27,7 @@ npm install esbuild-plugin-babel -D
 
 ```js
 import esbuild from 'esbuild';
-import babel from 'esbuild-plugin-babel';
+import babel from 'esbuild-plugin-babel-next';
 
 esbuild
     .build({

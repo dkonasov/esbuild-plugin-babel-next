@@ -1,8 +1,8 @@
 {
-	"name": "esbuild-plugin-babel",
-	"version": "0.2.3",
+	"name": "esbuild-plugin-babel-next",
+	"version": "1.0.0",
 	"description": "Babel plugin for esbuild.",
-	"repository": "nativew/esbuild-plugin-babel",
+	"repository": "dkonasov/esbuild-plugin-babel-next",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
 	"license": "ISC",
 	"exports": "./src/index.js",
